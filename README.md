@@ -15,3 +15,9 @@ go install github.com/Rhymen/go-whatsapp
 ```
 go run broadcast.go
 ```
+
+## Add message 
+```
+// Line 76
+Text: "<your message>",
+```
