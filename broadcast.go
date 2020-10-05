@@ -57,7 +57,7 @@ func (waHandler *waHandler) HandleTextMessage(message whatsapp.TextMessage) {
 		fmt.Println("Message Sent -> UID" + message.Info.RemoteJid)
 
 		if message.Text == "send message"{
-			file, _ := ioutil.ReadFile("broadcast.json")
+			file, _ := ioutil.ReadFile("classyear4.json")
 
 			fmt.Println("here")
  
@@ -73,7 +73,7 @@ func (waHandler *waHandler) HandleTextMessage(message whatsapp.TextMessage) {
 					Info: whatsapp.MessageInfo{
 						RemoteJid: strconv.Itoa(data.Broadcast[i].Mobile_no)+"@s.whatsapp.net",
 					},
-					Text:        "targeted spam",
+					Text:        "Test message year 4 computer systems broadcast list",
 				}
 				waHandler.c.Send(msg)
 
