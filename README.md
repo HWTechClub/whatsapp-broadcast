@@ -12,4 +12,6 @@ go install github.com/Rhymen/go-whatsapp
 ```
 
 ## Run 
+```
 go run broadcast.go
+```
