@@ -7,8 +7,8 @@ https://golang.org/doc/install
 
 ## Install libraries
 ```
-go install github.com/Baozisoftware/qrcode-terminal-go
-go install github.com/Rhymen/go-whatsapp
+go get github.com/Baozisoftware/qrcode-terminal-go
+go get github.com/Rhymen/go-whatsapp
 ```
 
 ## Run 
